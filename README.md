@@ -6,10 +6,10 @@ There are five stages to processing Physarum raw data to extract circularity, fr
 
 Download raw data from Tufts Box with the following structure:
 
-XXYYZZ/
-├── 1.zip
-├── 2.zip
-└── 3.zip
+XXYYZZ/  
+├── 1.zip  
+├── 2.zip  
+└── 3.zip  
 
 where XX is year, YY is month and ZZ is day.
 
@@ -39,10 +39,10 @@ Preprocess the png images. This will:
 
 The `PREPROCESSED` folder will have the following structure:
 
-PREPROCESSED/
-├── XXYYZZ\_S\_EEEEE\_DD\_001.jpg
-├── ...
-└── XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg
+PREPROCESSED/  
+├── XXYYZZ\_S\_EEEEE\_DD\_001.jpg  
+├── ...  
+└── XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg  
 
 Where S is scanner number (such as 1, 2 or 3), EEEEE is experiment (such as MA050 or CA102), DD is dish (from 01 to 06) and CCC is the last image in the specific series.
 
@@ -73,17 +73,17 @@ Process the images of each series. This will (for each image in the series):
 
 The `PROCESSED` folder will have the following structure:
 
-PROCESSED/
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD.dat
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_frac.dat
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_001.jpg
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_001\_plt.jpg
-├── ...
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg
-├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_CCC\_plt.jpg
-├── nh\_physarum\_XXYYZZ\_S\_EEEEE\_DD\_001.jpg
-├── ...
-└── nh\_physarum\_XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg
+PROCESSED/  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD.dat  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_frac.dat  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_001.jpg  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_001\_plt.jpg  
+├── ...  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg  
+├── nh\_fracdim\_XXYYZZ\_S\_EEEEE\_DD\_CCC\_plt.jpg  
+├── nh\_physarum\_XXYYZZ\_S\_EEEEE\_DD\_001.jpg  
+├── ...  
+└── nh\_physarum\_XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg  
 
 Where the first `dat` file contains circularity and fractal dimension per frame, and the second `dat` file contains all fractal dimension data used in each fit per frame.
 
