@@ -9,7 +9,7 @@ Collection of scipts related to *Physarum* growth
 ## Methods
 
 * Image extraction
-* Dynamical calculation of area, perimeter of growth contour
-* Dynamical calculation of circularity based on area and perimeter of growth contour
-* Dynamical calculation of Fractal dimension of growth contour
+* Calculation of area, perimeter of growth contour
+* Calculation of circularity based on area and perimeter of growth contour
+* Calculation of Fractal dimension of growth contour
 
