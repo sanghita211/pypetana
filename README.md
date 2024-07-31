@@ -16,3 +16,9 @@ Collection of scipts related to *Physarum* growth in petridish
 ## Documentation
 
 * Description of core function features related to _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
+
+
+
+## Contributing
+
+* New features, bug fixes, documentation, tutorial examples, code testing is welcome in the developer community!
