@@ -13,3 +13,6 @@ Collection of scipts related to *Physarum* growth in petridish
 * Calculation of circularity based on area and perimeter of growth contour
 * Calculation of Fractal dimension of growth contour
 
+## Documentation
+
+* Core function features and descriptions related to _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
