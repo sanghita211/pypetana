@@ -1,4 +1,4 @@
-# Physarum Processing
+# s-Petana: Compatibility with _scanner_ derived experimental data 
 
 There are five stages to processing Physarum raw data to extract circularity, fractal dimension and the videos/images used with Fricker.
 
