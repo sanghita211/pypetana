@@ -44,9 +44,9 @@ PREPROCESSED/
 ├── ...  
 └── XXYYZZ\_S\_EEEEE\_DD\_CCC.jpg  
 
-Where S is scanner number (such as 1, 2 or 3), EEEEE is experiment (such as MA050 or CA102), DD is dish (from 01 to 06) and CCC is the last image in the specific series.
+Where S is scanner number (such as 1, 2 or 3), EEEEE is experiment, DD is petri dish (from 01 to 06, so on) and CCC is the last image in the specific series.
 
-NOTE: Some series are missing frames. In these cases the missing frame with be a copy of the last frame, meaning if you have frame 19 and 21 but are missing frame 20, a frame 20 will be generated as a copy of frame 19. Missing frames are marked with a red dot in the upper left corner of the image.
+NOTE: _Provision for experimental data collection hiccup_: Some series are missing frames. In these cases the missing frame will be a copy of the last frame, meaning if you have frame 19 and 21 but are missing frame 20, a frame 20 will be generated as a copy of frame 19. Missing frames are marked with a red dot in the upper left corner of the image.
 
 ```console
 python3 stage3-preprocess.py XXYYZZ
