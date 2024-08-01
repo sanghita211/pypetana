@@ -4,7 +4,7 @@ There are five stages to processing Physarum raw data to extract circularity, fr
 
 ## Stage 0
 
-Download raw data from Tufts Box with the following structure:
+Download raw data with the following structure:
 
 XXYYZZ/  
 ├── 1.zip  
