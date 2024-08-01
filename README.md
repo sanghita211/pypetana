@@ -1,10 +1,11 @@
 # Petridish Image Extraction Tool and Dynamic Feature Analysis in Biological Systems
 
 ## Introduction
-This repository focuses on the extraction of *Physarum* growth images on petridishes and the calculation of dynamic features such as Circularity and Fractal Dimension.
+This repository focuses on the extraction of growth images of biological organisms on petri dishes and the calculation of dynamic features such as _area_, _perimeter_, _circularity_ and _fractal dimension_.
 
-## System
-Collection of scipts related to *Physarum* growth in petridish
+## System 
+Folder >s-petana: Compatibility with _scanner-derived_ experimental data.
+* Collection of scipts related to bio-growth in petridishes
 
 ## Methods
 
