@@ -33,9 +33,9 @@ sh stage2-fixjpgs.sh XXYYZZ
 
 Preprocess the png images. This will:
 
-1. Detect the number and location of each dish, across all scanners.
-2. Detect any masses present, and use their location to calculate an angle of rotation to align all masses.
-3. Segment, mask and rotate images, generating a new series of images for each dish in the `PREPROCESSED` folder.
+1. Detect the number and location of each petri dish, across all scanners.
+2. Detect any masses (or objects other than biological organism) present, and use their location to calculate an angle of rotation to align all masses (or objects other than biological organism).
+3. Segment, mask and rotate images, generating a new series of images for each petri dish in the `PREPROCESSED` folder.
 
 The `PREPROCESSED` folder will have the following structure:
 
