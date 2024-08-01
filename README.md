@@ -4,7 +4,7 @@
 This repository focuses on the extraction of growth images of biological organisms on petri dishes and the calculation of dynamic features such as _area_, _perimeter_, _circularity_ and _fractal dimension_.
 
 ## System 
-Folder _s-petana_: Compatibility with _scanner-derived_ experimental data.
+Folder _s-petana_: Compatibility with experimental data from _scanner-derived raw images_.
 * Collection of scipts related to bio-growth in petridishes
 
 ## Methods
