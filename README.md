@@ -23,7 +23,11 @@ Folder _i-petana_: Compatibility with experimental data such as videos.
 * Description of _Main_Execution_Blocks_ for _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
 * _PyPETANA_ main documentation 
 
+## Acknowledgments
 
+This research was undertaken in part thanks to funding from the Alfred P. Sloan Foundation
+(Matter-to-Life program). I thank Nirosha J. Murugan and Philip Kurian for helpful discussions
+with regards to Fricker Software and fractal dimensions, respectively.
 
 ## Contributing
 
