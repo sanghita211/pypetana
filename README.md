@@ -7,6 +7,9 @@ This repository focuses on the extraction of growth images of biological organis
 Folder _s-petana_: Compatibility with experimental data from _scanner-derived raw images_.
 * Collection of scipts related to bio-growth in petridishes
 
+Folder _i-petana_: Compatibility with experimental data such as videos.
+* Script for conversion of video to images.
+
 ## Methods
 
 * Image extraction
@@ -18,6 +21,7 @@ Folder _s-petana_: Compatibility with experimental data from _scanner-derived ra
 
 * Description of core function features related to _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
 * Description of _Main_Execution_Blocks_ for _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
+* _PyPETANA_ main documentation 
 
 
 
