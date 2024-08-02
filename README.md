@@ -21,7 +21,7 @@ Folder _i-petana_: Compatibility with experimental data such as videos.
 
 * Description of core function features related to _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
 * Description of _Main_Execution_Blocks_ for _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
-* _PyPETANA_ main documentation: Sengupta, S. (2024). PyPETANAv1.0.0 Documentation (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13165895
+* _PyPETANAv1.0.0_ main documentation: Sengupta, S. (2024). PyPETANAv1.0.0 Documentation (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13165895
 
 ## Acknowledgments
 
