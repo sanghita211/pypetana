@@ -1,6 +1,6 @@
 # s-Petana: Compatibility with _scanner_ derived experimental data 
 
-There are five stages to processing raw data to extract _circularity_, _fractal dimension_ and the videos/images to use as inputs for Fricker Software [https://markfricker.org/77-2/software/physarum-network-analysis/]
+There are five stages to processing raw data to extract _area_, _perimeter_, _circularity_, _fractal dimension_ and the videos/images to use as inputs for Fricker Software [https://markfricker.org/77-2/software/physarum-network-analysis/].
 
 ## Stage 0
 
