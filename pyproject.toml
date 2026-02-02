@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypetana"
+version = "1.1.0"
+description = "Petridish Image Extraction Tool and Dynamic Feature Analysis in Biological Systems"
+readme = "README.md"
+requires-python = ">=3.9,<3.14"
+license = "GPL-3.0-only"
+license-files = ["LICENSE*"]
+authors = [
+	{ name = "Sanghita Sengupta", email = "sanghita211@gmail.com" },
+	{ name = "Benjamin Himberg", email = "bhimberg@gmail.com" },
+]
+
+dependencies = [
+  "numpy>=1.23",
+  "Pillow>=9.0",
+  "opencv-python>=4.6",
+]
+
+[tool.setuptools.packages.find]
+include = ["pypetana*"]
+
+[project.scripts]
+pypetana = "pypetana.petana:main"
+
+[project.urls]
+Homepage = "https://pypetana.github.io"

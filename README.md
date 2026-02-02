@@ -4,24 +4,33 @@
 This repository focuses on the extraction of growth images of biological organisms on petri dishes and the calculation of dynamic features such as _area_, _perimeter_, _circularity_ and _fractal dimension_.
 
 ## System 
-Folder _s-petana_: Compatibility with experimental data from _scanner-derived raw images_.
-* Collection of scipts related to bio-growth in petridishes
 
-Folder _i-petana_: Compatibility with experimental data such as videos.
-* Script for conversion of video to images.
+### Linux/macOS Installation
+Install pixi:
+
+```console
+curl -fsSL https://pixi.sh/install.sh | bash
+```
+
+Clone the repo and path to it:
+```console
+git clone https://github.com/bhimberg/pypetana.git
+cd pypetana
+```
+
+Setup the pixi environment, launch a pixi shell and run pypetana:
+```console
+pixi shell
+pypetana
+```
 
 ## Methods
 
-* Image extraction
-* Calculation of area, perimeter of growth contour
-* Calculation of circularity based on area and perimeter of growth contour
-* Calculation of Fractal dimension of growth contour
-
-## Documentation
-
-* Description of core function features related to _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
-* Description of _Main_Execution_Blocks_ for _Image_Extraction_Routine_ & _Dynamical_Parameter_Extraction_Routine_
-* _PyPETANAv1.0.0_ main documentation: Sengupta, S. (2024). PyPETANAv1.0.0 Documentation (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.13165895
+* Sample isolation through use of cropping and other tuning parameters
+* Interpolation of tuning parameters across multiple images or video frames
+* Extraction of area, perimeter of growth contour
+* Extraction of circularity based on area and perimeter of growth contour
+* Extraction of mass and boundary Fractal dimension of growth contour
 
 ## Acknowledgments
 
